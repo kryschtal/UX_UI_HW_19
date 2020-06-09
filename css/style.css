@@ -30,6 +30,7 @@ flex-direction: row;
 .logo:hover {
     text-decoration: underline;
     text-decoration-thickness: 2px;
+    font-weight: bold;
 }
 
 .logo:active {
