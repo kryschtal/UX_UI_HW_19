@@ -1,0 +1,464 @@
+.nav_top a {
+    font-family: helvetica, Arial, sans-serif;
+    color: white;
+    text-decoration: none;
+    padding-top: 10px;
+}
+
+
+.nav_top {
+display: flex;
+flex-direction: row;
+position: relative;
+
+
+}
+.nav_container {
+background-color: rgba(0, 0, 0, 0);
+position: absolute;
+display: flex;
+flex-direction: row;
+}
+.logo {
+    background-repeat: no-repeat;
+    background-position: left;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 5px;
+}
+
+.logo:hover {
+    text-decoration: underline;
+    text-decoration-thickness: 2px;
+}
+
+.logo:active {
+    border: 1px white;
+}
+
+.banner {
+    display: flex;
+    background-color: green;
+    position: relative;
+}
+
+.banner img {
+    align-items: flex-start;
+    width: 100%;
+}
+
+.bulb {
+    position: absolute;
+    opacity: 0.5;
+    width: 5%;
+    top: 9%;
+    right: 32%;
+    z-index: 1;
+}
+
+.bulb:hover {
+    animation: pulse-black 2s infinite;
+}
+
+@keyframes pulse-black {
+	0% {
+		transform: scale(0.95);
+		
+	}
+	
+	70% {
+		transform: scale(1.7);
+	
+	}
+	
+	100% {
+		transform: scale(0.95);
+		
+	}
+}
+.bulb2 {
+    position: absolute;
+    opacity: 0.5;
+    width: 5%;
+    top: 20%;
+    right: 67%;
+    z-index: 1;
+}
+
+.bulb2:hover {
+    animation: pulse-black 2s infinite;
+}
+
+.bulb3 {
+    position: absolute;
+    opacity: 0.5;
+    width: 5%;
+    top: 33%;
+    right: 88%;
+    z-index: 1;
+}
+
+.bulb3:hover {
+    animation: pulse-black 2s infinite;
+}
+   
+.bulb4 {
+    position: absolute;
+    opacity: 0.5;
+    width: 5%;
+    top: 11%;
+    right: 19%;
+    z-index: 1;
+}
+
+.bulb4:hover {
+    animation: pulse-black 2s infinite;
+}
+
+.bulb5 {
+    position: absolute;
+    opacity: 0.5;
+    width: 4.5%;
+    top: 14%;
+    right: 5%;
+    z-index: 1;
+}
+
+.bulb5:hover {
+    animation: pulse-black 2s infinite;
+}
+
+.bulb6 {
+    position: absolute;
+    opacity: 0.5;
+    width: 5%;
+    top: 51%;
+    right: 6%;
+    z-index: 1;
+}
+
+.bulb6:hover {
+    animation: pulse-black 2s infinite;
+}
+
+.bulb7 {
+    position: absolute;
+    opacity: 0.5;
+    width: 4%;
+    top: 40%;
+    right: 15%;
+    z-index: 1;
+}
+
+.bulb7:hover {
+    animation: pulse-black 2s infinite;
+}
+
+.bulb8 {
+    position: absolute;
+    opacity: 0.5;
+    width: 4%;
+    top: 46%;
+    right: 24%;
+    z-index: 1;
+}
+
+.bulb8:hover {
+    animation: pulse-black 2s infinite;
+}
+.bulb9 {
+    position: absolute;
+    opacity: 0.5;
+    width: 3.5%;
+    top: 46%;
+    right: 76%;
+    z-index: 1;
+}
+
+.bulb9:hover {
+    animation: pulse-black 2s infinite;
+}
+
+.bulb10 {
+    position: absolute;
+    opacity: 0.5;
+    width: 2.5%;
+    top: 49%;
+    right: 34%;
+    z-index: 1;
+}
+
+.bulb10:hover {
+    animation: pulse-black 2s infinite;
+}
+
+.bulb11 {
+    position: absolute;
+    opacity: 0.5;
+    width: 2.8%;
+    top: 44%;
+    right: 60.4%;
+    z-index: 1;
+}
+
+.bulb11:hover {
+    animation: pulse-black 2s infinite;
+}
+
+.bulb12 {
+    position: absolute;
+    opacity: 0.5;
+    width: 2.8%;
+    top: 15%;
+    right: 51.4%;
+    z-index: 1;
+}
+
+.bulb12:hover {
+    animation: pulse-black 2s infinite;
+}
+.Kryschtal_title {
+    font-family: helvetica, Arial, sans-serif;
+    color: white;
+    text-decoration: none;
+    padding-top: 10px;
+    align-items: center;
+}
+
+
+.bottom_bar {
+    display: flex;
+    background-color: #AB5F47;
+    padding: 10px;
+    height: 40px;
+    justify-items: center;
+    text-align: center;
+    justify-content: center;
+    float: center;
+}
+
+.foot {
+    display: inline-block;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 5px;
+    justify-items: center;
+    justify-content: center;
+}
+
+.foot a{
+        font-family: helvetica, Arial, sans-serif;
+        color: white;
+        text-decoration: none;
+        margin-bottom: 5px;
+        text-align: center;
+        display: inline-block;
+}
+footer {
+    justify-content: center;
+    justify-items: center;
+    text-align: center;
+    float: center;
+    width: 100%;
+}
+
+.copyright_bar {
+    display: flex;
+    background-color: #AB5F47;
+    padding: 10px;
+    height: 40px;
+    justify-items: center;
+    grid-area: links;
+    justify-content: center;
+    float: center;
+
+}
+.copyright_bar a{
+    font-family: helvetica, Arial, sans-serif;
+    color: white;
+    text-decoration: none;
+    margin-bottom: 5px;
+    text-align: center;
+    display: inline-block;
+}
+ 
+
+
+
+.projects {
+    background-color: white;
+    background-position: center;
+    margin-left:20px;
+    margin-right: 20px;
+    padding-top: 20px;
+    justify-items: center;
+    justify-content: center;
+    display: grid;
+    margin-bottom: 20px;
+    grid-template-columns: 1fr 1fr ;
+    grid-template-rows: 40% 10% 40%;
+    grid-template-areas: 
+    "morsel1 project2a"
+    "whitebox1 whitebox1"
+    "project3a project4a"
+    ;
+}
+
+.casegridarea {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    align-items: center;
+    position: relative;
+}
+
+
+.Morsel {
+    align-items: center;
+    justify-content: center;
+    width: 500px;
+    height: 550px;
+    background-color: #FDFCF9;
+grid-area: morsel1;
+border-radius: 10px;
+-webkit-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba (0, 0, 0, 0.1) inset;
+      -moz-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+      box-shadow: 0 1px 4px rgba(0, 0, 0, 1), 0 0 40px rgba(0, 0, 0, 0.1);
+z-index: 100;
+text-align: center;
+
+}
+
+
+
+
+.watchGif {
+    width: 500px;
+    height: 550px;
+    border-radius: 10px;
+  justify-content: center;
+    object-position: center;
+    display: block;
+    margin-left: auto;
+  margin-right: auto;
+
+    position: absolute;
+}
+
+.WatchShot {
+    width: 500px;
+    height: 550px;
+    border-radius: 10px;
+  justify-content: center;
+    object-position: center;
+    display: block;
+    margin-left: auto;
+  margin-right: auto;
+
+background: white;
+position: relative;
+
+}
+
+.WatchShot:hover {
+    opacity: 0;
+}
+
+
+.Project2 {
+    display: flex;
+    width: 500px;
+    height: 550px;
+    background-color: #FDFCF9;
+    grid-area: project2a;
+    border-radius: 10px;
+    -webkit-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba (0, 0, 0, 0.1) inset;
+      -moz-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+      box-shadow: 0 1px 4px rgba(0, 0, 0, 1), 0 0 40px rgba(0, 0, 0, 0.1);
+    z-index: 100;
+}
+
+.whitebox {
+   height: 20px;
+   width: 800px;
+    background-color: white;
+    grid-area: whitebox1;
+    
+}
+
+.Project3 {
+    display: flex;
+    width: 500px;
+    height: 550px;
+    background-color: #FDFCF9;
+    grid-area: project3a;
+    border-radius: 10px;
+    -webkit-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba (0, 0, 0, 0.1) inset;
+      -moz-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+      box-shadow: 0 1px 4px rgba(0, 0, 0, 1), 0 0 40px rgba(0, 0, 0, 0.1);
+    z-index: 100;
+}
+
+.Project4 {
+    display: flex;
+    width: 500px;
+    height: 550px;
+    background-color: #FDFCF9;
+grid-area: project4a;
+border-radius: 10px;
+-webkit-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba (0, 0, 0, 0.1) inset;
+      -moz-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+      box-shadow: 0 1px 4px rgba(0, 0, 0, 1), 0 0 40px rgba(0, 0, 0, 0.1);
+    z-index: 100;
+}
+
+p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    color: #707070;
+}
+
+
+
+
+
+@media only screen and (max-width: 1070px){
+
+
+    .projects {
+        
+        background-position: center;
+        justify-items: center;
+        display: grid;
+        margin-bottom: 0px;
+        margin: 0px 5%;
+        grid-template-columns: 1fr;
+        grid-template-rows: 25% 25% 25% 25%;
+        grid-template-areas: 
+        "morsel1"
+        "project2a"
+        "project3a"
+        "project4a";
+}
+.Morsel { 
+    margin: 5px;
+   
+}
+.Project2  {
+    margin: 5px;
+    
+}
+.Project3 {
+    margin: 5px;
+    
+}
+.Project4 {
+    margin: 5px;
+  
+}
+.whitebox {
+    margin: 5px;
+    width: 100%;
+}
